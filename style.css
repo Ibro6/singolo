@@ -1,0 +1,297 @@
+*{
+    /* box-sizing: border-box; */
+    font-family: "Roboto", sans-serif;
+    font-size: 10px; 
+    text-decoration: none;
+    font-family: 'Lato', 'Verdana',sans-serif;
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    max-width: 960px;
+    padding: 0 10px;   
+    margin: 0 auto; 
+    /* border: 1px solid #73AD21; */
+}
+
+
+/* Styles for Header */
+
+.header {
+    background: #2D303A;
+}
+
+header .wrapper {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo__link {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.logo span {   
+    font-weight: bold;
+    color: #f06c64;
+    font-size: 15px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px
+}
+.navigation li a {
+    color: #FFFFFF;
+}
+
+.slider-item {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-item img {
+    margin: 0 36.5px;
+}
+/* 
+.slider img:nth-child(1) {
+    width: 16px;
+    height: 27px;
+}
+
+.slider img:nth-child(2) {
+    width: 240px;
+} */
+
+.slider-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 0;
+}
+
+.slider {
+    background-color: #f06c64;
+}
+
+.services h1 {
+    font-size: 23px;
+    color: rgb(102, 109, 137);
+    font-weight: bolder;
+}
+
+.services h3 {
+    font-size: 18px;
+    color: rgb(102, 109, 137);
+    font-weight: bolder;
+}
+
+.services p {
+    font-size: 18px;
+    color: rgb(102, 109, 137);
+    margin-top: 35px;
+}
+
+.services {
+    padding: 70px;
+}
+
+.tool p {
+    font-size: 12px;
+}
+
+.services__tools {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+.tool {
+    margin: 40px 10px 0 10px;
+    display: grid;
+    grid-template-columns: 61px 220px;
+}
+
+/* .tool img {
+/*  border: 2px solid #2D303A;
+/* } you must add border */
+
+.portfolio{
+    background-color: #2d303a;
+    padding: 60px 0 60px 0;
+}
+
+.info h1 {
+    font-size: 23px;
+    color: rgb(102, 109, 137);
+    font-weight: bolder;
+}
+
+.info p {
+    font-size: 14px;
+    color: rgb(102, 109, 137);
+    margin-top: 25px;
+}
+
+.portfolio button {
+    color: rgb(102, 109, 137);
+    padding: 5px;
+    border: 1px solid  rgb(197, 197, 197);
+    border-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    margin: 10px 5px 10px 0;
+    background-color: #2d303a;
+    width: unset;
+}
+
+.gallery img {
+    margin: 10px;
+} 
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 210px 210px 210px 220px;
+}
+
+/* About us section */
+
+.about__us {
+    margin: 65px 0;
+}
+
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-top: 50px;
+}
+
+.profile h3 {
+    font-size: 18px;
+    color: rgb(102, 109, 137);
+    font-weight: bolder;
+}
+
+.profile p {
+    font-size: 14px;
+    color: rgb(102, 109, 137);
+    margin-top: 12px;
+}
+
+/* you should add styles for social media(contacts) */
+
+/* Feedback secton */
+
+.feedback {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #f06c64;
+}
+
+.feedback h1 {
+    font-size: 23px;
+    color: #f0d8d9;
+    font-weight: bolder;
+}
+
+.feedback p {
+    font-size: 14px;
+    color: #f0d1d1;
+    margin-top: 25px;
+    line-height: 25px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 660px 300px;
+    margin-top: 50px;
+}
+
+.user__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 40px 15px 40px 15px 40px 15px 200px 15px;
+}
+
+.user__info input,textarea {
+    width: 620px;
+    border-radius: 5px;
+    border: none;  
+    background: #d6564f;
+    padding: 10px;
+}
+
+.user__info button {
+    margin: auto;
+    width: 200px;
+    border-radius: 5px;
+    border: none;  
+    background: #d6564f;
+    padding: 10px;
+}
+
+.contact__info  h3 {
+    font-size: 18px;
+    color: rgb(102, 109, 137);
+    font-weight: bolder;
+    color: #f0d8d9;
+}
+
+
+.contact__info p {
+    font-size: 11px;
+    color: rgb(102, 109, 137);
+    margin-top: 12px;
+    line-height: 20px;
+    color: #f0d8d9;
+}
+
+footer {
+    background: #2d303a;
+}
+
+footer p{
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(102, 109, 137);
+}
+
+.icons a {
+    color: rgb(102, 109, 137);
+    width: 35px;
+    height: 35px;
+    border: 1.5px solid #666d89;
+    border-radius: 50%;
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons a:hover {
+    background:rgb(102, 109, 137);
+    color: white;
+}
+
+footer .wrapper {
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
